@@ -2,10 +2,8 @@ import { randomInt } from "./randomInt.js"
 import { numQuestions } from "./utils/numQuestions.js"
 // import { indexes } from "./utils/indexes.js"
 
-export function randomIndex(theme, stack) {
-    let index, stk
-    if (stack == "topic-questions") stk = 0
-    if (stack == "stop-questions") stk = 1
-    const max = numQuestions[theme][stk]
+// Retorna uma número aleatório entre 1 e quantidade de questões de um tipo e tema.
+export function randomIndex(theme, stackType) {
+    const max = numQuestions[theme][stackType]
     return randomInt(1, max)
 }

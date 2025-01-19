@@ -1,16 +1,22 @@
 import { formatKebabCase } from "./formatKebabCase.js"
 import { randomIndex } from "./randomIndex.js"
 import { checkAnswer } from "./checkAnswer.js"
+import { questions } from "./utils/questions.js"
 
 function questionsSelection() {
     window.onload = () => {
         const data = JSON.parse(localStorage.getItem("data"))
         const [format, theme, stack] = Object.values(data)
-        const index = randomIndex(theme, stack)
+        let stackType = null
+        if (stack == "topic-questions") stackType = 0
+        if (stack == "stop-questions") stackType = 1
+        const index = randomIndex(theme, stackType)
         console.log("index", index)
         const imagePath = `../assets/images/${formatKebabCase(
             theme
-        )}/${formatKebabCase(stack)}/${index}.jpg`
+        )}/${formatKebabCase(stack)}/${index}-${
+            questions[theme][stackType][index - 1]
+        }.jpg`
         console.log(imagePath)
         const divImage = document.querySelector(".question-image")
         const divContainer = document.querySelector(".container")
@@ -31,10 +37,10 @@ function questionsSelection() {
         const divs = divAlternatives.querySelectorAll(".option")
         console.log(divs)
         function handleClick(event) {
-            const answer = checkAnswer(theme, index)
+            const answer = checkAnswer(theme, questions[theme][stackType][index - 1])
             const divAnswer = document.createElement("div")
             const h1 = document.createElement("h1")
-            console.log('clicou')
+            console.log("clicou")
             divAnswer.classList.add("option")
             if (answer == event.target.innerText.toLowerCase()) {
                 h1.innerText = "Acertou! Permaneça na casa"
