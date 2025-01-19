@@ -27,22 +27,35 @@ function questionsSelection() {
             div.classList.add("alternative-theme")
             div.appendChild(h1)
             divAlternatives.appendChild(div)
-            div.addEventListener("click", () => {
-                const answer = checkAnswer(theme, index)
-                const divAnswer = document.createElement("div")
-                const h1 = document.createElement("h1")
-                divAnswer.classList.add("option")
-                if (answer == alternatives[i].toLowerCase()) {
-                    h1.innerText = "Acertou! Permaneça na casa"
-                    divAnswer.classList.add("right-answer")
-                } else {
-                    h1.innerText = "Errou! Retorne para a casa que estava"
-                    divAnswer.classList.add("wrong-answer")
-                }
-                divAnswer.appendChild(h1)
-                divContainer.appendChild(divAnswer)
+        }
+        const divs = divAlternatives.querySelectorAll(".option")
+        console.log(divs)
+        function handleClick(event) {
+            const answer = checkAnswer(theme, index)
+            const divAnswer = document.createElement("div")
+            const h1 = document.createElement("h1")
+            console.log('clicou')
+            divAnswer.classList.add("option")
+            if (answer == event.target.innerText.toLowerCase()) {
+                h1.innerText = "Acertou! Permaneça na casa"
+                divAnswer.classList.add("right-answer")
+            } else {
+                h1.innerText = "Errou! Retorne para a casa que estava"
+                divAnswer.classList.add("wrong-answer")
+            }
+            divAnswer.appendChild(h1)
+            divContainer.appendChild(divAnswer)
+            divAnswer.scrollIntoView({
+                behavior: "smooth",
+                block: "end",
+            })
+            divs.forEach((div) => {
+                div.removeEventListener("click", handleClick)
             })
         }
+        divs.forEach((div) => {
+            div.addEventListener("click", handleClick, { once: true })
+        })
         img.src = imagePath
         divImage.appendChild(img)
         divImage.appendChild(divAlternatives)
