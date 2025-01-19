@@ -1,4 +1,4 @@
-import { formatKebabCase } from "./src/scripts/formatKebabCase.js"
+import { formatKebabCase } from "./formatKebabCase.js"
 
 export function pageSelection() {
     const options = document.querySelectorAll(".option")
@@ -13,7 +13,7 @@ export function pageSelection() {
                 option.classList.contains("topic-questions")
             ) {
                 localStorage.setItem("data", JSON.stringify(option.classList))
-                const path = `./src/pages/Question.html`
+                const path = `./Question.html`
                 window.location.href = path
                 return path
             }

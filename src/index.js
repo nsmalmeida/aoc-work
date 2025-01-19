@@ -1,3 +1,3 @@
-import { pageSelection } from "./src/scripts/pageSelection.js"
+import { pageSelection } from "./scripts/pageSelection.js"
 
 const page = pageSelection()

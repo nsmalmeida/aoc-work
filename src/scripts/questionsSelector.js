@@ -8,7 +8,7 @@ function questionsSelection() {
         const [format, theme, stack] = Object.values(data)
         const index = randomIndex(theme, stack)
         console.log("index", index)
-        const imagePath = `./src/assets/images/${formatKebabCase(
+        const imagePath = `../assets/images/${formatKebabCase(
             theme
         )}/${formatKebabCase(stack)}/${index}.png`
         console.log(imagePath)
