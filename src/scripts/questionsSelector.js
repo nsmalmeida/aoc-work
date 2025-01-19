@@ -10,7 +10,7 @@ function questionsSelection() {
         console.log("index", index)
         const imagePath = `../assets/images/${formatKebabCase(
             theme
-        )}/${formatKebabCase(stack)}/${index}.png`
+        )}/${formatKebabCase(stack)}/${index}.jpg`
         console.log(imagePath)
         const divImage = document.querySelector(".question-image")
         const divContainer = document.querySelector(".container")

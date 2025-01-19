@@ -1,17 +1,62 @@
 export const answers = {
-    "green-theme": [
-        "vazio"
-    ],
-    "silver-theme": [
-        "vazio"
-    ],
+    "green-theme": ["vazio"],
+    "silver-theme": ["vazio"],
     "yellow-theme": [
-        "a", "d", "b", "a", "b", "a", "a", "b", "a", " ", "a", " ", "c", "b", "b", "b", "b", "b", "b", "b"
+        "a",
+        "d",
+        "b",
+        "a",
+        "b",
+        "a",
+        "a",
+        "b",
+        "a",
+        " ",
+        "a",
+        " ",
+        "c",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
     ],
     "blue-theme": [
-        "vazio"
+        "c",
+        "b",
+        "c",
+        "b",
+        "c",
+        "a",
+        "d",
+        "a",
+        "c",
+        "b",
+        "c",
+        "a",
+        "b",
+        "c",
+        "b",
+        "c",
+        "b",
+        "b",
+        "a",
+        "b",
+        "c",
+        "a",
+        "c",
+        "b",
+        "b",
+        "d",
+        "c",
+        "a",
+        " ",
+        "c",
+        "b",
+        "a",
+        "b",
     ],
-    "purple-theme": [
-        "vazio"
-    ]
+    "purple-theme": ["vazio"],
 }
