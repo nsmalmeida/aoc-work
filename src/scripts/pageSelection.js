@@ -17,7 +17,7 @@ export function pageSelection() {
                 window.location.href = path
                 return path
             }
-            const path = `./src/pages/${formatKebabCase(
+            const path = `src/pages/${formatKebabCase(
                 option.classList[option.classList.length - 1]
             )}.html`
             window.location.href = path
