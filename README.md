@@ -11,7 +11,7 @@ Isabele de L. Nascimento
 
 ## Artigo
 
-O artigo do projeto está no repositório como: [Artigo](Artigo - CRIATHON.pdf)
+O artigo do projeto está no repositório como: Artigo - CRIATHON.pdf
 
 ## Vídeo
 
@@ -20,4 +20,4 @@ Disponibilizado no YouTube: https://youtu.be/P-tluQwDYBU?si=JUynRsrog0uZi7kV
 ## Site
 
 O site disponibiliza o Manual do Jogador e todos os outros recursos necessários para dinâmica do jogo.
-O site do jogo está hospedado no próprio GitHub: 
+O site do jogo está hospedado no próprio GitHub: https://nsmalmeida.github.io/aoc-work/
