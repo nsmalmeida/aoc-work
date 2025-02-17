@@ -12,6 +12,7 @@ Este trabalho apresenta a proposta de um jogo de tabuleiro interativo e educativ
 ## Artigo e Artes
 
 O artigo do projeto está no repositório como: Artigo - CRIATHON.pdf
+
 O desingdo tabuleiro e outras artes estão disponíveis na pasta Artes.
 
 ## Vídeo
