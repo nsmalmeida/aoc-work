@@ -4,14 +4,15 @@ Este trabalho apresenta a proposta de um jogo de tabuleiro interativo e educativ
 
 ## Integrantes
 
-Natã M. de Almeida
-Gabriel P. de Campos
-Isabela F. Silva
-Isabele de L. Nascimento
+* Natã M. de Almeida
+* Gabriel P. de Campos
+* Isabela F. Silva
+* Isabele de L. Nascimento
 
-## Artigo
+## Artigo e Artes
 
 O artigo do projeto está no repositório como: Artigo - CRIATHON.pdf
+O desingdo tabuleiro e outras artes estão disponíveis na pasta Artes.
 
 ## Vídeo
 
