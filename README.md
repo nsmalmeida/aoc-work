@@ -9,6 +9,10 @@ Gabriel P. de Campos
 Isabela F. Silva
 Isabele de L. Nascimento
 
+## Artigo
+
+O artigo do projeto está no repositório como: [Artigo](Artigo - CRIATHON.pdf)
+
 ## Vídeo
 
 Disponibilizado no YouTube: https://youtu.be/P-tluQwDYBU?si=JUynRsrog0uZi7kV
