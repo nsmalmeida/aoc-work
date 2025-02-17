@@ -1,6 +1,6 @@
 # Jogo do Tabuleiro - Viagem pela Computação
 
-Este trabalho apresenta a proposta de um jogo de tabuleiro interativo e educativo que aborda conceitos fundamentais de Arquitetura e Organização de Computadores (AOC). O protótipo explora temas como entrada e saída (E/S), memória e armazenamento, e incorpora perguntas e desafios relacionados ao conteúdo em mecânicas típicas de jogos de tabuleiro. O objetivo é facilitar a compreensão e o engajamento com os tópicos da disciplina de forma criativa e eficaz.
+Este trabalho apresenta a proposta de um jogo de tabuleiro interativo e educativo que aborda conceitos fundamentais de Arquitetura e Organização de Computadores (AOC). O protótipo explora temas como entrada e saída (E/S), memória e armazenamento, e incorpora perguntas e desafios relacionados ao conteúdo em mecânicas típicas de jogos de tabuleiro. O jogo funciona junto com um site com o link disponível no final deste resumo. O objetivo é facilitar a compreensão e o engajamento com os tópicos da disciplina de forma criativa e eficaz.
 
 ## Integrantes
 
